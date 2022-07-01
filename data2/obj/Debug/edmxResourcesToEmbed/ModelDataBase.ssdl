@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище forDataBase2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="table1">
+    <Key>
+      <PropertyRef Name="Код обуви" />
+    </Key>
+    <Property Name="Код обуви" Type="int" Nullable="false" />
+    <Property Name="Артикул обуви" Type="nvarchar" MaxLength="50" />
+    <Property Name="Наименование обуви" Type="nvarchar" MaxLength="50" />
+    <Property Name="Количество пар" Type="int" />
+    <Property Name="Стоимость одной пары" Type="int" />
+    <Property Name="Имеющиеся размеры" Type="int" />
+    <Property Name="Название фабрики" Type="nvarchar" MaxLength="50" />
+    <Property Name="Срок поставки в магазин" Type="date" />
+  </EntityType>
+  <EntityContainer Name="Хранилище forDataBase2ModelContainer">
+    <EntitySet Name="table1" EntityType="Self.table1" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

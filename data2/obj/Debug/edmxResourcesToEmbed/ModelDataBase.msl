@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище forDataBase2ModelContainer" CdmEntityContainer="forDataBase2Entities">
+    <EntitySetMapping Name="table1">
+      <EntityTypeMapping TypeName="forDataBase2Model.table1">
+        <MappingFragment StoreEntitySet="table1">
+          <ScalarProperty Name="Код_обуви" ColumnName="Код обуви" />
+          <ScalarProperty Name="Артикул_обуви" ColumnName="Артикул обуви" />
+          <ScalarProperty Name="Наименование_обуви" ColumnName="Наименование обуви" />
+          <ScalarProperty Name="Количество_пар" ColumnName="Количество пар" />
+          <ScalarProperty Name="Стоимость_одной_пары" ColumnName="Стоимость одной пары" />
+          <ScalarProperty Name="Имеющиеся_размеры" ColumnName="Имеющиеся размеры" />
+          <ScalarProperty Name="Название_фабрики" ColumnName="Название фабрики" />
+          <ScalarProperty Name="Срок_поставки_в_магазин" ColumnName="Срок поставки в магазин" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

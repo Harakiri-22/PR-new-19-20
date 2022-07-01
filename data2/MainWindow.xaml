@@ -1,0 +1,32 @@
+﻿<Window x:Class="data2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:data2"
+        mc:Ignorable="d"
+        Title="База данных &quot;Сведения об ассортименте обуви&quot;" Height="450" Width="940" ResizeMode="NoResize">
+    <Grid>
+        <DataGrid x:Name="dataGrid1" HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="927" Loaded="Window_Loaded" IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="70" Header="Код обуви" Binding="{Binding Код_обуви}"/>
+                <DataGridTextColumn Width="95" Header="Артикул обуви" Binding="{Binding Артикул_обуви}"/>
+                <DataGridTextColumn Width="130" Header="Наименование обуви" Binding="{Binding Наименование_обуви}"/>
+                <DataGridTextColumn Width="100" Header="Количество пар" Binding="{Binding Количество_пар}"/>
+                <DataGridTextColumn Width="130" Header="Стоимость 1-ой пары" Binding="{Binding Стоимость_одной_пары}"/>
+                <DataGridTextColumn Width="130" Header="Имеющиеся размеры" Binding="{Binding Имеющиеся_размеры}"/>
+                <DataGridTextColumn Width="120" Header="Название фабрики" Binding="{Binding Название_фабрики}"/>
+                <DataGridTextColumn Width="140" Header="Срок поставки" Binding="{Binding Срок_поставки_в_магазин}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="bb1" Content="добавить" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Width="75" Click="bb1_Click"/>
+        <Button x:Name="bb3" Content="удалить" HorizontalAlignment="Left" Margin="170,355,0,0" VerticalAlignment="Top" Width="75" Click="bb3_Click"/>
+        <Button x:Name="bb2" Content="изменить" HorizontalAlignment="Left" Margin="90,355,0,0" VerticalAlignment="Top" Width="75" Click="bb2_Click"/>
+        <Button x:Name="bbZAP" Content="поиск по g" HorizontalAlignment="Left" Margin="844,355,0,0" VerticalAlignment="Top" Width="75" Click="bbZAP_Click"/>
+        <Button x:Name="bbZAP2" Content="поиск по F" HorizontalAlignment="Left" Margin="764,355,0,0" VerticalAlignment="Top" Width="75" Click="bbZAP2_Click"/>
+        <Button x:Name="bbZAP3" Content="сортировка по стоимости" HorizontalAlignment="Left" Margin="609,355,0,0" VerticalAlignment="Top" Width="150" Click="bbZAP3_Click"/>
+        <Button x:Name="bbZAP4" Content="кол-во пар" HorizontalAlignment="Left" Margin="524,355,0,0" VerticalAlignment="Top" Width="80" Click="bbZAP4_Click"/>
+        <Button x:Name="bbZAP5" Content="самая большая стоимость 1 пары" HorizontalAlignment="Left" Margin="319,355,0,0" VerticalAlignment="Top" Width="200" Click="bbZAP5_Click"/>
+
+    </Grid>
+</Window>

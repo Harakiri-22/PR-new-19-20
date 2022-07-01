@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище forDataBase2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="table1">
+          <Key>
+            <PropertyRef Name="Код обуви" />
+          </Key>
+          <Property Name="Код обуви" Type="int" Nullable="false" />
+          <Property Name="Артикул обуви" Type="nvarchar" MaxLength="50" />
+          <Property Name="Наименование обуви" Type="nvarchar" MaxLength="50" />
+          <Property Name="Количество пар" Type="int" />
+          <Property Name="Стоимость одной пары" Type="int" />
+          <Property Name="Имеющиеся размеры" Type="int" />
+          <Property Name="Название фабрики" Type="nvarchar" MaxLength="50" />
+          <Property Name="Срок поставки в магазин" Type="date" />
+        </EntityType>
+        <EntityContainer Name="Хранилище forDataBase2ModelContainer">
+          <EntitySet Name="table1" EntityType="Self.table1" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="forDataBase2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="table1">
+          <Key>
+            <PropertyRef Name="Код_обуви" />
+          </Key>
+          <Property Name="Код_обуви" Type="Int32" Nullable="false" />
+          <Property Name="Артикул_обуви" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Наименование_обуви" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Количество_пар" Type="Int32" />
+          <Property Name="Стоимость_одной_пары" Type="Int32" />
+          <Property Name="Имеющиеся_размеры" Type="Int32" />
+          <Property Name="Название_фабрики" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Срок_поставки_в_магазин" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityContainer Name="forDataBase2Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="table1" EntityType="Self.table1" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище forDataBase2ModelContainer" CdmEntityContainer="forDataBase2Entities">
+          <EntitySetMapping Name="table1">
+            <EntityTypeMapping TypeName="forDataBase2Model.table1">
+              <MappingFragment StoreEntitySet="table1">
+                <ScalarProperty Name="Код_обуви" ColumnName="Код обуви" />
+                <ScalarProperty Name="Артикул_обуви" ColumnName="Артикул обуви" />
+                <ScalarProperty Name="Наименование_обуви" ColumnName="Наименование обуви" />
+                <ScalarProperty Name="Количество_пар" ColumnName="Количество пар" />
+                <ScalarProperty Name="Стоимость_одной_пары" ColumnName="Стоимость одной пары" />
+                <ScalarProperty Name="Имеющиеся_размеры" ColumnName="Имеющиеся размеры" />
+                <ScalarProperty Name="Название_фабрики" ColumnName="Название фабрики" />
+                <ScalarProperty Name="Срок_поставки_в_магазин" ColumnName="Срок поставки в магазин" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,69 @@
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.csproj.AssemblyReference.cache
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\Add.g.cs
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\Edit.g.cs
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\MainWindow.g.cs
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\App.g.cs
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2_Content.g.cs
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2_MarkupCompile.cache
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2_MarkupCompile.lref
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\data2.exe.config
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\data2.exe
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\data2.pdb
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\EntityFramework.dll
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\EntityFramework.xml
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\исп-34\source\repos\data2\data2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\Add.baml
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\Edit.baml
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\MainWindow.baml
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.g.resources
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.Properties.Resources.resources
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.csproj.GenerateResource.cache
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.csproj.CoreCompileInputs.cache
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.csproj.CopyComplete
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.exe
+C:\Users\исп-34\source\repos\data2\data2\obj\Debug\data2.pdb
+C:\Users\admin\Desktop\data2\data2\bin\Debug\data2.exe.config
+C:\Users\admin\Desktop\data2\data2\bin\Debug\data2.exe
+C:\Users\admin\Desktop\data2\data2\bin\Debug\data2.pdb
+C:\Users\admin\Desktop\data2\data2\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\data2\data2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\data2\data2\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\data2\data2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\data2\data2\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\data2\data2\obj\Debug\Add.g.cs
+C:\Users\admin\Desktop\data2\data2\obj\Debug\Edit.g.cs
+C:\Users\admin\Desktop\data2\data2\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\data2\data2\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2_Content.g.cs
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2_MarkupCompile.cache
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2_MarkupCompile.lref
+C:\Users\admin\Desktop\data2\data2\obj\Debug\Add.baml
+C:\Users\admin\Desktop\data2\data2\obj\Debug\Edit.baml
+C:\Users\admin\Desktop\data2\data2\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.g.resources
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.Properties.Resources.resources
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.csproj.CopyComplete
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.exe
+C:\Users\admin\Desktop\data2\data2\obj\Debug\data2.pdb
+C:\Users\admin\Desktop\data2\data2\bin\Debug\data2.mdf
+C:\Users\admin\Desktop\data2\data2\bin\Debug\data2_log.ldf
+C:\Users\admin\Desktop\data2\data2\obj\Debug\Авторизация.g.cs
+C:\Users\admin\Desktop\data2\data2\obj\Debug\Авторизация.baml
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\Add.g.cs
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\Edit.g.cs
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\Авторизация.g.cs
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2_Content.g.cs
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2_MarkupCompile.cache
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2_MarkupCompile.lref
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2.exe
+C:\Users\admin\Desktop\ПР19-20 Мишин ИСП-34\data2\data2\obj\Debug\data2.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="forDataBase2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="table1">
+    <Key>
+      <PropertyRef Name="Код_обуви" />
+    </Key>
+    <Property Name="Код_обуви" Type="Int32" Nullable="false" />
+    <Property Name="Артикул_обуви" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Наименование_обуви" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Количество_пар" Type="Int32" />
+    <Property Name="Стоимость_одной_пары" Type="Int32" />
+    <Property Name="Имеющиеся_размеры" Type="Int32" />
+    <Property Name="Название_фабрики" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Срок_поставки_в_магазин" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityContainer Name="forDataBase2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="table1" EntityType="Self.table1" />
+  </EntityContainer>
+</Schema>
